@@ -1,0 +1,81 @@
+
+.page{
+    border: 2px solid black;
+    /* margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px; */
+    /* padding-right: 50px;  */
+    width: 270px;
+    margin: 200px auto;
+    padding: 10px 7px;
+    border-radius: 7px;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 10px black;
+    
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1508615039623-a25605d2b022?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvZ2lufGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    
+
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: palegoldenrod;
+    border-radius: 20px;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    transform: 0.3s; 
+    font-weight: 600;
+    width: 80%;
+    height: 80%;
+     
+}
+.button:hover{
+    background-color: transparent;
+    color: rgb(92, 119, 238);
+    
+}
+.field{
+    border-radius: 10px;
+    text-align: center;
+    border:2px solid black;
+    width: 80%;
+    height: 80%;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.field:hover{
+    background-color: transparent;
+    color: black
+}
+.rem-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 0 15px;
+}
+
+.rem-forget a{
+    font-weight: 600;
+}
+
+.new-reg{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top:20px;
+}
+.new-reg p a{
+    /* color: white; */
+    text-decoration: none;
+    font-weight: 600;
+}
+.new-reg p a:hover{
+    text-decoration: underline;
+}
